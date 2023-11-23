@@ -20,7 +20,7 @@ elif Operation == 3:
     result = Question1 * Question2
     Answer = input(f"What is {Question1} * {Question2}? ")
 
-#Does not take into account runtime errors
+#Does not take into account errors
 if result == eval(Answer):
     print("Correct!")
 else:
